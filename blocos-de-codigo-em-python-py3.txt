@@ -17,7 +17,7 @@ Agora veremos quando o segundo aparece.
 Ao fazermos um if, estrutura condicional que será explicada em mais detalhes num próximo post, temos o seguinte no shell:
 >>> x = 0
 >>> if x < 1:
-...    print "x é menor que 1"
+...    print("x é menor que 1")
 ...
 
 x é menor que 1
@@ -40,7 +40,7 @@ O mais importante no fim das contas é manter um padrão. Se você usa 4 espaço
 
 Brincadeira....
 
-Voltando ao assunto, o print "x é menor que 1" é o comando que deve ser executado se a comparação x < 1 for verdadeira. Assim, esta linha está identada, e o interpretador sabe que só deve executá-la caso x seja menor que 1.
+Voltando ao assunto, o print("x é menor que 1") é o comando que deve ser executado se a comparação x < 1 for verdadeira. Assim, esta linha está identada, e o interpretador sabe que só deve executá-la caso x seja menor que 1.
 
 Quando você dá um enter no final desta linha, o interpretador te mostra novamente o cursor secundário, pois um if pode ter vários comandos ali dentro. Como veremos mais adiante a execução de um programa todo pode estar dentro de um if.
 
