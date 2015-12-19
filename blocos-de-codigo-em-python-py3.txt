@@ -1,0 +1,64 @@
+Olá pessoal!
+
+Continuando as explicações iniciais sobre a programação em python, antes de falarmos sobre as estruturas de repetição e estruturas condicionais, vamos falar sobre blocos de código.
+
+Pra quem perdeu o primeiro post, aqui vai um link:
+Primeiros Passos Para a Programação Em Python
+
+
+
+Como visto, no shell Python, temos dois cursores:
+>>>
+...
+
+
+Agora veremos quando o segundo aparece.
+
+Ao fazermos um if, estrutura condicional que será explicada em mais detalhes num próximo post, temos o seguinte no shell:
+>>> x = 0
+>>> if x < 1:
+...    print("x é menor que 1")
+...
+
+x é menor que 1
+
+Agora, a explicação =]
+
+Na primeira linha, dizemos que a variável x contém o valor 0;
+Em seguida, comparamos o valor contido em x com 1. Ao terminarmos um comando com : o interpretador entende que este é um comando que não acabou no final daquela linha, e que é composto por mais comandos, então surge o cursor secundário "...".
+
+Então, muitos programadores habituados com outras linguagens devem se perguntar onde estão as chaves pra determinar o bloco.
+
+No Python, os blocos são determinaods pela identação (ou edentação, ou endentação... já vi várias formas da palavra).
+
+As linhas que estão dentro do if, ou seja o que deve ser executado caso a comparação seja verdadeira deve estar identado.
+
+Em geral é uma convenção, no Python, usarmos 4 espaços para a identação. Alguns usam tabs, outros usam 8 espaços.
+
+O mais importante no fim das contas é manter um padrão. Se você usa 4 espaços, que sejam 4 espaços, se usa tabs, que sejam tabs. Caso você mude no meio do programa, o interpretador vai perceber e vai reclamar.
+
+
+Brincadeira....
+
+Voltando ao assunto, o print("x é menor que 1") é o comando que deve ser executado se a comparação x < 1 for verdadeira. Assim, esta linha está identada, e o interpretador sabe que só deve executá-la caso x seja menor que 1.
+
+Quando você dá um enter no final desta linha, o interpretador te mostra novamente o cursor secundário, pois um if pode ter vários comandos ali dentro. Como veremos mais adiante a execução de um programa todo pode estar dentro de um if.
+
+Assim, só depois de um segundo enter é que o interpretador executa o comando e mostra o resultado.
+
+Então, recapitulando:
+
+    Blocos em Python são definidos pela identação
+    A identação deve seguir um padrão, preferencialmente em todos os programas
+    É convenção usar 4 espaços para identação
+    No interpretador, blocos identados são precedidos do cursos secundário ...
+    Um bloco indica um trecho de código que está dentro de outro comando
+
+Por enquanto é só!
+
+No próximo post aproveitamos a deixa, e falamos sobre estruturas condicionais em Python! Até a próxima!
+
+Abraços!
+
+Comentem!
+Assinem o Feed e não percam nem um Post do Programe em Python!
